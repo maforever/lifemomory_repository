@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<!--      <item   
+        android:id="@android:id/background"   
+        android:drawable="@drawable/seekbar_view_bg" />最下层图片 实例中蓝色部分   -->
+ 
+ <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="10dip" />
+
+            <gradient
+                android:angle="270"
+                android:centerColor="#e4e4e4"
+                android:centerY="0.45"
+                android:endColor="#c5c5c5"
+                android:startColor="#c5c5c5" 
+                />
+            
+        </shape>
+    </item>
+    
+<!--      <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="10dip" />
+                <gradient
+                    android:angle="270"
+                    android:centerColor="#ffFFFF00"
+                    android:centerY="0.45"
+                    android:endColor="#ffAABD00"
+                    android:startColor="#ffffffff" />
+                <size android:height="2dp"/>
+            </shape>
+        </clip>
+    </item> -->
+    <item   
+        android:id="@android:id/progress"   
+        android:drawable="@drawable/seekbar_prg_bg" android:top="2dp" android:bottom="2dp" /> <!-- 显示当前进度的图片就是该实例中上面白色部分 -->   
+    
+    
+<!--     <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="10dip" />
+
+            <gradient
+                android:angle="270"
+                android:centerColor="#ff000000"
+                android:centerY="0.45"
+                android:endColor="#ff808A87"
+                android:startColor="#ffffffff" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="10dip" />
+
+                <gradient
+                    android:angle="270"
+                    android:centerColor="#ffFFFF00"
+                    android:centerY="0.45"
+                    android:endColor="#ffAABD00"
+                    android:startColor="#ffffffff" />
+            </shape>
+        </clip>
+    </item> -->
+
+</layer-list>

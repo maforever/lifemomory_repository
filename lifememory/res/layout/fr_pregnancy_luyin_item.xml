@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/pregnancyjishiben_grid_selector" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/diaryTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="标题kjfsdfsffsdjf;ksjf;ksjf;slkjdfksjdfioweuroiwjer;kwjeroiwejrof;sdjfoiwjoijwekrjdfsdfsdfffffffffffffffff"
+            android:textColor="#404040"
+            android:textSize="10dp"
+            android:singleLine="true" 
+            android:ellipsize="end" 
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="#c2c2c2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/recode_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/record_iocn" 
+            android:visibility="visible"
+            />
+        
+        
+        <CheckBox
+            android:id="@+id/delete_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:layout_gravity="center"
+            android:background="@drawable/pregnancy_jishiben_grid_deletetag"
+            android:visibility="gone"
+            />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="#c2c2c2" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/diaryDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:text="2013-12-22 12:22:22"
+            android:textColor="#000000"
+            android:textSize="6dp"
+            android:layout_marginBottom="2dp" />
+    </LinearLayout>
+
+</LinearLayout>

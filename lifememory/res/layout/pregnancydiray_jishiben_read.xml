@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/keyboardRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pregnancydiray_title_bg" >
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/pregnancydiray_back_icon"
+                android:onClick="btnClick" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/back"
+                android:singleLine="true"
+                android:text="DJFLDJFSLJFSDJFLSDJFLJFKDSFKSFJ"
+                android:textColor="#ffffff"
+                android:textSize="23dp" />
+        </RelativeLayout>
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/top"
+            android:background="#ffffff" >
+
+            <LinearLayout
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="400dp" >
+
+                <com.example.lifememory.activity.views.LinedTextView
+                    android:id="@+id/content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:gravity="left|top"
+                    android:singleLine="false"
+                    android:textSize="20dp" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/composer_buttons_wrapper"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:clipChildren="false"
+            android:clipToPadding="false" >
+
+            <ImageButton
+                android:id="@+id/composer_button_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="142dp"
+                android:layout_marginRight="10.667dp"
+                android:background="@drawable/pregnancy_jishiben_edit_selector"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/composer_button_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="120.666dp"
+                android:layout_marginRight="69.33333333333333dp"
+                android:background="@drawable/pregnancy_jishiben_share_selector"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/composer_button_rename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="70dp"
+                android:layout_marginRight="120.3333333333333dp"
+                android:background="@drawable/pregnancy_jishiben_rename_selector"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/composer_button_del"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8.666666666666667dp"
+                android:layout_marginRight="144dp"
+                android:background="@drawable/pregnancy_jishiben_delete_selector"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/composer_buttons_show_hide_button"
+            android:layout_width="70dp"
+            android:layout_height="67.33333333333333dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/composer_button" >
+
+            <ImageView
+                android:id="@+id/composer_buttons_show_hide_button_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/composer_icn_plus" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</FrameLayout>

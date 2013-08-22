@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 左边菜单的相关数据 -->
+    <dimen name="shadow_width">10dp</dimen>
+    <dimen name="slidingmenu_offset">100dp</dimen>
+    
+    <!-- title栏 -->
+    <dimen name="title_text_size">22sp</dimen>
+    <dimen name="title_hight">50dp</dimen>
+    
+    <!--  -->
+    <dimen name="person_info_card_title_hight">50dp</dimen>
+    
+    <!-- menu栏的字体大小 -->
+    <dimen name="menu_text_size">15dp</dimen>
+     <dimen name="dp_10">10dp</dimen>
+    <!-- menu图片与字间距离 -->
+    <dimen name="menu_drawable_distance">11dp</dimen>
+    
+    <!-- 预约挂号注册里 hint的字体大小 -->
+    <dimen name="regist_hint_textsize">15sp</dimen>
+    <dimen name="regist_normal_textsize">15sp</dimen>
+    <dimen name="regist_input_width">220dip</dimen>
+    <dimen name="regist_input_height">40dip</dimen>
+    <dimen name="regist_left_width">80dip</dimen>
+    <dimen name="regist_left_height">40dip</dimen>
+    
+    <!-- 标题栏下方的tab条 -->
+    <dimen name="tab_text">18sp</dimen>
+    <dimen name="tab_hight">50dp</dimen>
+    <dimen name="tab_top">-3dp</dimen>
+    
+    <!-- 预约挂号里Listview Item距离左右的间距 -->
+    <dimen name="yygh_item_toleft">20dip</dimen>
+    <dimen name="yygh_item_toright">20dip</dimen>
+    
+    <!-- Dialog里的每个Item的距离 -->
+    <dimen name="dialog_item_distance">15dip</dimen>
+    
+    <!-- 医院专家gallery的大小 -->
+    <dimen name="gallery_height">150dip</dimen>
+     <!-- 医院专家gallery中图片的大小 -->
+    <dimen name="gallery_image_height">80dip</dimen>
+     <!-- 医院专家gallery中图片间隔的大小 -->
+    <dimen name="gallery_image_distance">10dip</dimen>
+     <!-- 医院专家预约view的大小 -->
+    <dimen name="gallery_yuyue_width">160dip</dimen>
+     <!-- 医院专家预约view距离底部的大小 -->
+    <dimen name="gallery_yuyue_bottom">25dip</dimen>
+    
+    
+     <!-- menu菜单里面头像距离上面的距离 -->
+    <dimen name="icon_totop_distance">15dip</dimen>
+    <!-- 搜索框的高度 -->
+    <dimen name="tab_search">60dp</dimen>
+    
+    
+</resources>

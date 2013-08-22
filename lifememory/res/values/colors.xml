@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="color" name="leftmenuselected">#cc66ff</item>
+    <item type="color" name="colorPink">#ff66ff</item>
+    <item type="color" name="colorPurple">#9900cc</item>
+    <item type="color" name="colorBlue">#0000ff</item>
+</resources>
