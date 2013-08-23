@@ -155,7 +155,7 @@ public class PregnancyDiaryFragment extends Fragment {
 		dbService.closeDB();
 		lyDBService.closeDB();
 	}
-
+	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
@@ -710,9 +710,18 @@ public class PregnancyDiaryFragment extends Fragment {
 
 			@Override
 			public void onOpen() {
-//				Log.i("a", "onOpen");
+				Log.i("a", "menu onOpen");
 				indexActivity.getSlidingMenu().setSlidingEnabled(true);
 				indexActivity.unregisterMyOnTouchListener(myOnTouchListener);
+			}
+		});
+		// 当隐藏左侧的leftmenuframent的时候注册ontouch时间
+		indexActivity.getSlidingMenu().setOnClosedListener(new OnClosedListener() {
+			
+			@Override
+			public void onClosed() {
+				indexActivity.getSlidingMenu().setSlidingEnabled(true);
+				indexActivity.registerMyOnTouchListener(myOnTouchListener);
 			}
 		});
 

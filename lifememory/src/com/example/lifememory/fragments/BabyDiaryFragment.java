@@ -693,6 +693,16 @@ public class BabyDiaryFragment extends Fragment {
 				indexActivity.unregisterMyOnTouchListener(myOnTouchListener);
 			}
 		});
+		
+		// 当隐藏左侧的leftmenuframent的时候注册ontouch时间
+		indexActivity.getSlidingMenu().setOnClosedListener(new OnClosedListener() {
+			
+			@Override
+			public void onClosed() {
+				indexActivity.getSlidingMenu().setSlidingEnabled(true);
+				indexActivity.registerMyOnTouchListener(myOnTouchListener);
+			}
+		});
 	}
 
 	private void initWidth() {

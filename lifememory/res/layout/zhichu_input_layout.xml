@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/jinelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bill_list_top_selector"
+            android:clickable="true"
+            android:onClick="btnClick" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:gravity="center"
+                android:text="金额"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/jine"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:background="#990033"
+                android:text="0"
+                android:textColor="#ffffff"
+                android:ellipsize="end"
+                android:textSize="20dp"
+                android:gravity="right"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/leixinglayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bill_list_center_selector"
+            android:clickable="true"
+            android:onClick="btnClick" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:gravity="center"
+                android:text="类型"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/leixing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/leixingarrow"
+                android:gravity="center"
+                android:text="购物>衣服鞋帽"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/leixingarrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/ic_arrow_list" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/zhanghulayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bill_list_center_selector"
+            android:clickable="true"
+            android:onClick="btnClick" >
+
+            <TextView
+                android:id="@+id/jine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:text="账户"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/zhanghu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/leixingarrow"
+                android:gravity="center"
+                android:text="信用卡"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/leixingarrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/ic_arrow_list" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/riqilayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bill_list_center_selector"
+            android:clickable="true"
+            android:onClick="btnClick" >
+
+            <TextView
+                android:id="@+id/jine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:gravity="center"
+                android:text="日期"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/leixingarrow"
+                android:gravity="center"
+                android:text="2013-08-22"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/leixingarrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/ic_arrow_list" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/chengyuanlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bill_list_center_selector"
+            android:clickable="true"
+            android:onClick="btnClick" >
+
+            <TextView
+                android:id="@+id/jine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:gravity="center"
+                android:text="成员"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/chengyuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/leixingarrow"
+                android:gravity="center"
+                android:text="自己"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/leixingarrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/ic_arrow_list" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/beizhulayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bill_list_center_selector"
+            android:clickable="true"
+            android:onClick="btnClick" >
+
+            <TextView
+                android:id="@+id/jine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:gravity="center"
+                android:text="备注"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/beizhu"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/leixingarrow"
+                android:gravity="center"
+                android:text="备注信息dfsdfsfsfwerwrewr"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/leixingarrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/ic_arrow_list" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/baoxiaolayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bill_list_bottom_selector"
+            android:clickable="true"
+            android:onClick="btnClick" >
+
+            <TextView
+                android:id="@+id/jine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:gravity="center"
+                android:text="是否可报销"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/baoxiaocb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/leixingarrow"
+                android:gravity="center"
+                android:textSize="18dp" 
+                android:button="@null"
+                android:background="@drawable/bill_checkbox_isbaoxiao"/>
+
+            <ImageView
+                android:id="@+id/leixingarrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/ic_arrow_list" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
