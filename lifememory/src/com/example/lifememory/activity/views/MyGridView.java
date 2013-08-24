@@ -1,11 +1,7 @@
 package com.example.lifememory.activity.views;
 
 import android.widget.GridView;
-/**
- * 功能:用于expandablelistview中嵌套的gridview
- * @author machao
- *
- */
+
 public class MyGridView extends GridView
 {
 	public MyGridView(android.content.Context context,

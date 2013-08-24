@@ -69,9 +69,7 @@ public class LeftMenuFragment extends Fragment {
 		fragments.add(fragment);
 		fragment = new EFragment();
 		fragments.add(fragment);
-		fragment = new FR_Bill_index(indexActivity);
-		fragments.add(fragment);
-		fragment = new EFragment();
+		fragment = new FFragment();
 		fragments.add(fragment);
 		
 		listView.setOnItemClickListener(new OnItemClickListener() {
@@ -95,14 +93,6 @@ public class LeftMenuFragment extends Fragment {
 				case 3:
 					adapter.setSelected(3);
 					changeFragment(3);
-					break;
-				case 4:
-					adapter.setSelected(4);
-					changeFragment(4);
-					break;
-				case 5:
-					adapter.setSelected(5);
-					changeFragment(5);
 					break;
 				}
 			}
